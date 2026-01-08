@@ -28,7 +28,7 @@ src/
 ├── config/
 │   ├── settings.py      # Environment variables
 │   └── openai.py        # Model names and API clients
-├── retriever.py         # Document ingestion and Redis vector store
+├── retriever.py         # Document ingestion and FAISS vector store
 ├── agents/
 │   ├── nodes.py         # Agent, rewrite, and generate functions
 │   ├── edges.py         # Document grading logic
